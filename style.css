@@ -1,0 +1,241 @@
+        /*body*/
+body{
+    width: 80%;
+    margin: auto !important;
+}
+p{
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(179, 176, 176);
+}
+
+
+        /*navigation bar*/
+.container{ 
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    }
+    
+    .container p{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 16px;
+          height: 100px;
+          width: 400px;
+          background:white;
+          color: rgb(179, 176, 176);
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+    .container a{
+    display:flex;
+    color:#AEAEAE;
+    text-decoration: none;
+        }
+        /* mouse over the element*/
+    .container a:hover {
+        color:#37C3B1 ;
+        }
+
+        /*this is section 1*/
+    .top1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pcontainer{
+        display:flex;
+        justify-content: center;
+        }
+    .pcontainer p{
+        padding: 0 20px;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        color: #747474;
+    }
+        
+        /*sthis is section 2 box*/
+    #boxg{
+        max-width: 1000px;
+        margin: 50px 0px;
+        display: inline-flex;
+        justify-items: center;
+        }    
+    .boxG:hover{
+        opacity: 0.95;
+        }
+
+    .boxG{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 335px;
+        height: 300px;
+        border: 1px solid; 
+        margin: 10px;
+        padding: 25px 25px;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+    .lev1{
+        color: #FFFFFF;
+        font-size: 0.8em;
+    }
+
+        /* This is option comment */
+    .op{
+            background-color: transparent;
+            border: none;
+            color: #FFFFFF;
+            font-size: 20px; 
+            margin-bottom: 20px;
+            align-self: flex-start;   
+        }
+
+    option{
+        color:#1B2734;
+    }
+    
+    .logo{
+        color:#C4C4C4;
+    width: 155px;
+    height: 45;
+    }
+
+    
+        /* This is section 3 css comment */
+    
+    .num3{
+        display: flex;
+        justify-content: center;
+        max-width: 1000px;
+        margin: auto ;
+        position:relative;
+        }
+
+    .grid-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        }
+
+    .num3 h1{
+        margin: 5px 0px;
+        padding: 0px 5px;
+        color: #37c3b1;
+        width: 450px;
+    }
+
+    svg{
+        fill: rgb(196,196,196) ;
+    }
+
+    .svgimg:hover{
+        fill:#37c3b1 ;
+    }
+
+    .imgimg{
+        opacity: 0.2 ;
+    }
+
+    .imgimg:hover{
+        opacity: 0.6;
+    }  
+
+    .svgimg{
+        fill:"gray";
+    }
+   
+    .svgimg:hover{
+        fill:#00CCB1
+    }
+
+        /*section paragrap*/
+.paragraphe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 250px;
+    font-display: center;
+    text-align: center;
+}        
+
+        /*section bigworld*/
+.bigworld{
+    display: flex;
+    background-color: #e5faf8;
+}
+.tab1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.tab2, .tab3{
+    display: block;
+    background-color: #fff;
+    text-align: center;
+    margin: 10px;
+    width: 250px;
+}
+
+        /*section 4= place*/
+.btn1{
+    background: #3d83df;
+    text-align: center;
+    border: 0ch;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 10px;  
+    float: right;
+    font-weight: bold;
+}
+.place{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-content: center;
+    max-width: 1000px;
+    margin-top: 50px;
+}
+.btn1:hover{
+    background-color: #1662c6;
+
+}
+.place2{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 250px;
+    height: auto;
+}
+.place1{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+}
+
+.place1:hover{
+    box-shadow:0 10px 30px 0 rgba(0,0,0,.14)
+}
+.join-us_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
